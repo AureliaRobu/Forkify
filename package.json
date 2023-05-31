@@ -1,0 +1,24 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir dist"
+  },
+  "author": "Aurelia Robu",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "@types/node": "^20.2.3",
+    "core-js": "^3.30.2",
+    "parcel": "^2.8.3",
+    "prettier": "2.8.8",
+    "process": "^0.11.10",
+    "regenerator-runtime": "^0.13.11",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "fractional": "^1.0.0"
+  }
+}
