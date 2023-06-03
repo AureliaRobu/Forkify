@@ -101,12 +101,13 @@ const controlUploadRecipe = async function (newRecipe: any) {
 const init = function () {
   // addRecipeView.addHandlerShowWindow();
   // addRecipeView.addHandlerHideWindow();
+  searchView.addHandlerSearch(controlSearchResults);
+  paginationView.addHandlerPagination(controlPagination);
   addRecipeView.addHandlerUpload(controlUploadRecipe);
   bookmarksView.addHandlerRender(controlRenderBookmarks);
   recipeView.addHandlerRender(controlRecipe);
   recipeView.addHandlerServings(controlServings);
   recipeView.addHandlerBookmarks(controlBookmarks);
-  searchView.addHandlerSearch(controlSearchResults);
-  paginationView.addHandlerPagination(controlPagination);
+
 };
 init();
